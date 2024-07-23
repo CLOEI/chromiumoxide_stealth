@@ -8,7 +8,7 @@ license = "MIT"
 readme = "README.md"
 
 [dependencies]
-chromiumoxide = { git = "https://github.com/mattsse/chromiumoxide", features = [
+chromiumoxide = { version = "0.6.0", features = [
   "tokio-runtime",
-], default-features = false, branch = "main" }
+], default-features = false }
 tokio = { version = "1.38.1", features = ["full"] }
