@@ -2,7 +2,6 @@ use std::fs;
 
 use chromiumoxide::{cdp, Page};
 
-#[tokio::main]
 pub async fn inject(page: &Page) -> Result<(), Box<dyn std::error::Error>> {
     page.execute(
         cdp::browser_protocol::page::AddScriptToEvaluateOnNewDocumentParams {

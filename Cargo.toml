@@ -1,6 +1,6 @@
 [package]
 name = "chromiumoxide_stealth"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 description = "Enhance your Chromiumoxide automation with stealth capabilities"
 repository = "https://github.com/cloei/chromiumoxide_stealth"
@@ -8,7 +8,4 @@ license = "MIT"
 readme = "README.md"
 
 [dependencies]
-chromiumoxide = { version = "0.6.0", features = [
-  "tokio-runtime",
-], default-features = false }
-tokio = { version = "1.38.1", features = ["full"] }
+chromiumoxide = { version = "0.6.0" }
